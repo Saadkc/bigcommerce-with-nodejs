@@ -1,0 +1,98 @@
+{{!-- <script>
+    var jsonData = ` {
+            title: 'Welcome!', data: {
+                "wholesaler": [
+                    'cod',
+                    'bank-deposit'
+                ],
+                "retailer": [
+                    'cod'
+                ]
+            }`;
+
+
+    // Parse JSON
+    var parsedData = JSON.parse(jsonData);
+
+    // Get the container element
+    var container = document.getElementById("jsonContainer");
+
+    // Convert JSON to string with indentation
+    var jsonString = JSON.stringify(parsedData, null, 2);
+
+    // Set the JSON string as the HTML content of the container
+    container.innerHTML = "<pre>" + jsonString + "</pre>";
+
+</script>
+
+
+
+<h1>{{title}}</h1>
+<p>Welcome to {{data.wholesaler}}!</p>
+
+<div id="jsonContainer"></div> --}}
+
+
+{{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+<script id="json-template" type="text/x-handlebars-template">
+  <h1>{{title}}</h1>
+  <p>Welcome to the application!</p>
+  <p>Retailer: {{data.retailer}}</p>
+</script>
+
+<div id="jsonContainer"></div>
+
+<script>
+  var jsonData = `{
+    "title": "Welcome!",
+    "data": {
+      "wholesaler": [
+        "cod",
+        "bank-deposit"
+      ],
+      "retailer": [
+        "cod"
+      ]
+    }
+  }`;
+
+  // Compile the Handlebars template
+  var template = Handlebars.compile(document.getElementById("json-template").innerHTML);
+
+  // Parse the JSON data
+  var parsedData = JSON.parse(jsonData);
+
+  // Render the template with the parsed data
+  var renderedHTML = template(parsedData);
+
+  // Set the rendered HTML as the content of the container
+  document.getElementById("jsonContainer").innerHTML = renderedHTML;
+</script> --}}
+
+<html>
+<head>
+  <title>JSON Display</title>
+</head>
+<body>
+  <h1 id="title"></h1>
+  <p id="jsonData"></p>
+
+  <script>
+    var jsonData = {
+      "title": "Welcome!",
+      "data": {
+        "wholesaler": [
+          "cod",
+          "bank-deposit"
+        ],
+        "retailer": [
+          "cod"
+        ]
+      }
+    };
+
+    document.getElementById("title").innerText = jsonData.title;
+    document.getElementById("jsonData").innerText = JSON.stringify(jsonData.data);
+  </script>
+</body>
+</html>
