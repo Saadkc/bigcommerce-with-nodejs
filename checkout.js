@@ -13,8 +13,11 @@ router.get('/checkout.js', async (req, res) => {
             console.log(response);
         })
         .catch(err => console.error(err));
+});
 
-
+router.post('/cart',(req,res)=>{
+    console.log(req.body);
+    res.status(200).json({"status": "success"});
 });
 
 // res.redirect('https://dkrmentor.github.io/dummycheckout/');
