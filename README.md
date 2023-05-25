@@ -58,15 +58,7 @@ Say what the step will be
 npm ngrok
 ```
 
-```
-ngrok http 3000
-```
-
 End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
 
 ## 🎈 Usage <a name="usage"></a>
 
@@ -75,7 +67,9 @@ set secret Id on load.js and uninstall.js
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+```
+ngrok http 3000
+```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
