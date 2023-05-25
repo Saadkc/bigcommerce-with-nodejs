@@ -5,7 +5,7 @@ const express = require('express'),
 const bigCommerce = new BigCommerce({
     clientId: '4xmjmcev8vp3hz40un0jes76cdursnb',
     secret: '272d5c04c382730b7f05673ded3110ed73c1fe289d5f7bd4a92aea3430657e72',
-    callback: 'https://2862-116-90-109-33.ngrok-free.app/api/oauth',
+    callback: 'https://e572-116-90-109-33.ngrok-free.app/api/oauth',
     responseType: 'json'
 });
 

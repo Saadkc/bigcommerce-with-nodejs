@@ -1,24 +1,32 @@
-// const { createCheckoutService } = require('@bigcommerce/checkout-sdk');
 const express = require('express');
 router = express.Router();
 const axios = require('axios');
-// import { getLanguageService } from './getLanguageService';
 
 router.get('/checkout.js', async (req, res) => {
 
-    const options = { method: 'GET', headers: { 'Content-Type': 'application/json' , 'X-Auth-Token': 'bj7tkzjewifqq3spjpbo6y4b9t1p95b' , 'X-Auth-Client': 'bj7tkzjewifqq3spjpbo6y4b9t1p95b' } };
+    console.log('checkout.js called');
+    const dummy = {
+        'wholesaler': [
+            'Cod',
+            'bank_deposit'
+        ],
+        'retailer': [
+            'Cod',
+        ]
+    }
 
-    await axios.get('https://api.bigcommerce.com/stores/qiasafvdob/v3/catalog/products', options)
-        .then(response => {
-            console.log(response);
-        })
-        .catch(err => console.error(err));
+    const dummyString = JSON.stringify(dummy);
+
+    const redirectURL = `https://bigcommerceapp.web.app/?dummy=${encodeURIComponent(dummyString)}`;
+
+    res.redirect(redirectURL);
+
 });
 
-router.post('/cart',(req,res)=>{
+router.post('/cart', (req, res) => {
     console.log(req.body);
-    res.status(200).json({"status": "success"});
+    res.status(200).json({ "status": "success" });
 });
 
-// res.redirect('https://dkrmentor.github.io/dummycheckout/');
+
 module.exports = router;
