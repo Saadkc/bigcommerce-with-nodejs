@@ -62,27 +62,16 @@ npm ngrok
 ngrok http 3000
 ```
 
-```
-Set ngrok Url with adding /api to auth callback and also create new app on bigcommerce developer account and get client id and secret Id and set in auth.js.
-set secret Id on load.js and uninstall.js
-```
 End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
 Explain how to run the automated tests for this system.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
+Set ngrok Url with adding /api to auth callback and also create new app on bigcommerce developer account and get client id and secret Id and set in auth.js.
+set secret Id on load.js and uninstall.js
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
