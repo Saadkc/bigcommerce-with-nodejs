@@ -4,7 +4,7 @@ const axios = require('axios');
 
 router.get('/checkout.js', async (req, res) => {
 
-    console.log('checkout.js called');
+    console.log("saad");
     const dummy = {
         'wholesaler': [
             'Cod',
@@ -15,13 +15,11 @@ router.get('/checkout.js', async (req, res) => {
         ]
     }
 
-    const dummyString = JSON.stringify(dummy);
-
-    const redirectURL = `https://bigcommerceapp.web.app/?dummy=${encodeURIComponent(dummyString)}`;
-
+    const redirectURL = `https://bigcommerceapp.web.app`;
     res.redirect(redirectURL);
 
 });
+
 
 router.post('/cart', (req, res) => {
     console.log(req.body);
@@ -30,3 +28,4 @@ router.post('/cart', (req, res) => {
 
 
 module.exports = router;
+
