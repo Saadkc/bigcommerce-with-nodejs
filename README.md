@@ -85,7 +85,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@saadkc](https://github.com/Saadkc) - Idea & Initial work
+- [@saadkc](https://github.com/Saadkc) 
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
