@@ -1,6 +1,5 @@
 const express = require('express');
 router = express.Router();
-const axios = require('axios');
 
 router.get('/checkout.js', async (req, res) => {
 
