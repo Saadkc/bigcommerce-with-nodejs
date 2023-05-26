@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is custom bigcommerce app which is created using Node Js. The purpose of the application is to customization/modification of custom checkout page of the Bigcommerce Store.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
