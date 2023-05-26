@@ -86,7 +86,7 @@ I would like to express my gratitude to the following individuals and resources 
 - Node.js - The runtime environment for JavaScript that allowed us to build the backend of this application.
 - Express - The Node.js framework that provided a robust set of features for developing web applications, making the development process - smoother and more efficient.
 - Bigcommerce - The powerful e-commerce SAAS platform that enabled us to create this custom app and enhance the checkout page customization of Bigcommerce stores.
-- Special thanks to [@SaadTechno](https://github.com/SaadTechno) and [@saadkc](https://github.com/Saadkc)  for their hard work and dedication in developing this custom Bigcommerce app.
+- Special thanks to [@SaadTechno](https://github.com/SaadTechno) for their hard work and dedication in developing this custom Bigcommerce app.
 
 We would also like to acknowledge the support and inspiration we received from various sources during the development process.
 
