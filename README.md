@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2018/05/bigcommerce-logo-alt.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">myapp</h3>
