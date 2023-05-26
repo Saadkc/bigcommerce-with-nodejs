@@ -73,9 +73,9 @@ ngrok http 3000
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-- [Express](https://expressjs.com/) - Server Framework
-- [Bigcommerce](https://bigcommerce.com/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Runtime Environment for Javascript
+- [Express](https://expressjs.com/) - Node JS Framework
+- [Bigcommerce](https://bigcommerce.com/) - ECommerce SAAS Application
 
 ## ✍️ Authors <a name = "authors"></a>
 
@@ -83,6 +83,13 @@ ngrok http 3000
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+I would like to express my gratitude to the following individuals and resources for their contributions and support in the development of this custom Bigcommerce app.
+
+- Node.js - The runtime environment for JavaScript that allowed us to build the backend of this application.
+- Express - The Node.js framework that provided a robust set of features for developing web applications, making the development process - smoother and more efficient.
+- Bigcommerce - The powerful e-commerce SAAS platform that enabled us to create this custom app and enhance the checkout page customization of Bigcommerce stores.
+- Special thanks to @SaadTechno and @saadkc for their hard work and dedication in developing this custom Bigcommerce app.
+
+We would also like to acknowledge the support and inspiration we received from various sources during the development process.
+
+Finally, we want to express our gratitude to the open-source community for their continuous efforts in creating and sharing valuable resources, which greatly contributed to the success of this project.
