@@ -3,8 +3,6 @@
  <img width=200px height=200px src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2018/05/bigcommerce-logo-alt.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">myapp</h3>
-
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
